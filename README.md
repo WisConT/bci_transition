@@ -56,7 +56,27 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
+
 Quick Start 
 ------------
 
-First 
+First, get python if you don't already have it. An easy way to get python installed is to use anaconda (works across platforms):
+
+- https://www.anaconda.com/distribution/
+
+Second, git clone this repository and set up a virtual environment inside the folder installing all dependencies: 
+
+1. pip install virtualenv (if you don't have it already installed)
+2. Go inside this folder (e.g. cd bci_transition)
+3. Create venv (e.g. virtualenv venv_bci) 
+4. Activate the newly created virtual environment (e.g. source venv_bci/bin/activate)
+5. Install all dependencies in requirements.txt (e.g. pip install -r requirements.txt)
+
+(see more at https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref )
+
+Open Jupyter Lab to start working (type jupyter lab)
+
+
+
+
+
